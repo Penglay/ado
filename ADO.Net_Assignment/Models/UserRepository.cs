@@ -58,7 +58,7 @@ namespace ADO.Net_Assignment.Models
                 Email = user.Email,
                 Age = user.Age
             };
-            _dataContext.Users.InsertAllOnSubmit(userData);
+            //_dataContext.Users.InsertAllOnSubmit(userData);
             _dataContext.SubmitChanges();
         }
 
